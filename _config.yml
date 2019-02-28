@@ -12,7 +12,7 @@ description: "I guess it comes down to a simple choice:get busy living or get bu
 # 关键词
 keyword: "Java, Kotlin, Android, Vue.js, Apple, iPhone"
 # 博客访问链接
-url: "https://aigq.me"
+url: "https://ligoudans.github.io"
 # '/blog' if your blog hosted on 'host/blog'
 baseurl: ""
 
@@ -85,7 +85,7 @@ gitalk:
 # Google Analytics
 ga_track_id: 'UA-135281137-1'
 # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-ga_domain: https://aigq.me
+ga_domain: auto
 
 ## 标签设置
 # 是否使用首页标签
