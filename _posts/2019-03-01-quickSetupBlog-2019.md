@@ -208,10 +208,6 @@ friends: [   
  ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19onbuhj31jo0v8tdk.jpg)
 3. 在左侧菜单栏选择 `Account` ，并找到 `Username` 。
  ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19yzb04j31jo0v8dju.jpg)
-`Username`  对应着 `_config.yml` 中  `disqus_username` ：
-```
-disqus_username: superZhoudalu
-```
 
 #### Gitalk
 
