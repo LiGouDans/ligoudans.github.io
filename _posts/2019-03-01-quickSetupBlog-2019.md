@@ -4,7 +4,7 @@ title:      快速搭建个人博客
 subtitle:   极其简单的搭建教程
 date:       2019-03-01
 author:     SuperZhouDaLu
-header-img: img/post-github-cup.jpg
+header-img: img/post-bg-github-cup.jpg
 catalog: true
 tags:                              
     - 笔记
@@ -116,3 +116,23 @@ tags:   
 ## 标题
 ### 内容
 ```
+
+### 侧边栏
+
+看右边：
+
+![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n18koc6hj31jo0v8n1y.jpg)
+
+关于侧边栏的设置是在 `_config.yml` 中：
+
+```
+## 侧边栏设置
+# 是否开启侧边栏 true 开始 false 关闭
+sidebar: true
+# 侧边栏描述语句
+sidebar-about-description: "知识就是力量。"
+# 侧边栏头像
+sidebar-avatar: /img/sidebar-avatar.jpg
+```
+
+侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap[栅格系统](http://v3.bootcss.com/css/)。
