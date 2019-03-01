@@ -136,3 +136,18 @@ sidebar-avatar: /img/sidebar-avatar.jpg
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap[栅格系统](http://v3.bootcss.com/css/)。
+
+### 推荐标签
+
+推荐标签位于侧边栏首部，针对博客的tags进行分类。相关配置在 `_config.yml` 中：
+
+```
+## 标签设置
+# 是否使用首页标签
+featured-tags: true
+# 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0
+```
+唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
+内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的。
+
