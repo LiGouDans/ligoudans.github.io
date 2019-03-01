@@ -77,6 +77,7 @@ tags:
 主要通过修改`_config.yml`文件配置博客内容：
 
 ```
+## 网站设置
 # 标题
 title: Blog
 # 选项卡标题
@@ -94,11 +95,13 @@ description: "I guess it comes down to a simple choice:get busy living or get bu
 ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n17uz8d8j31jo0v842k.jpg)
 
 点击 `Rename` 按钮后，你就可以在网页输入 `https://"你的GitHub用户名".github.io`  查看效果了。至此已经完成了一半啦，剩余的就是一些你专属的配置了。
+
 ### 撰写文章
 
 要发表的文章一般以 **Markdown** 的格式放在这里 `_posts/`，如果你还不了解 **Markdown** 语法，可以点击[这里](https://markdown-zh.readthedocs.io/en/latest/)进行学习。每篇博客的标头是固定的，以下是的配置内容：
 
 ```
+---
 layout:     post
 title:      这是标题
 subtitle:   这是子标题
@@ -108,6 +111,7 @@ header-img: img/post-bg-coffee.jpeg
 catalog: true
 tags:    
         - 标签
+---
 
 ## 标题
 ### 内容
