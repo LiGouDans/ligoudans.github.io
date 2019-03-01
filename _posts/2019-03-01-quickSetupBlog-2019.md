@@ -165,38 +165,3 @@ jianshu_username:   56a2c6b6027c
 # twitter个人页面 填写用户名
 twitter_username:   zhoudalu
 ```
-
-### 好友链接
-
-好友链接部分会在所以页面展示，相关配置在 `_config.yml` 中：
-
-```
-friends: [    
-    {       
-        title: "帅超",
-        href: "https://github.com/shuaichaoA" 
-    },
-    {        
-        title: "鸡大婶",        
-        href: "https://github.com/ruinszero"    
-    },
-    {        
-        title: "Apple",
-        href: "https://apple.com"   
-    },
-    {        
-        title: "Apple Developer",   
-        href: "https://developer.apple.com/"   
-    }
-]
-```
-
-### 评论
-
-博客目前支持 [Disqus](http://disqus.com)和[Gitalk](https://gitalk.github.io/) 评论系统。
-
-#### Disqus
-
-优点：配置简单，国际比较流行，界面也很大气、简洁，如果有人评论，还能实时通知，直接回复通知的邮件就行了。
-
-缺点：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，并且在国内被墙了。
