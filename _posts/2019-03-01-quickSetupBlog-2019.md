@@ -200,17 +200,3 @@ friends: [   
 优点：配置简单，国际比较流行，界面也很大气、简洁，如果有人评论，还能实时通知，直接回复通知的邮件就行了。
 
 缺点：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，并且在国内被墙了。
-
-**使用：**
-
-1. 前往[disqus官网](https://disqus.com/)注册一个属于自己的账号。
-2. 进入[设置页面](https://disqus.com/home/settings/profile/)配置个人信息：
- ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19onbuhj31jo0v8tdk.jpg)
-3. 在左侧菜单栏选择 `Account` ，并找到 `Username` 。
- ![](http://ww1.sinaimg.cn/large/005yqb1Zly1g0n19yzb04j31jo0v8dju.jpg)
-
-#### Gitalk
-
-优点：界面干净简洁，利用 Github issue API 做的评论插件，使用 Github 帐号进行登录和评论，最喜欢的支持 Markdown 语法，对于程序员来说真是太 cool 了。
-
-缺点：配置比较繁琐，每篇文章的评论都需要初始化。
